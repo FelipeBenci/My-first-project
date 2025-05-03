@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Cal Sans", sans-serif;
+}
+
+body {
+    height: 100%;
+    background-color: #fdfdfd;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    background-color: #49A078;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.containerPai {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(237, 235, 231);
+    margin: 50px auto;
+    padding: 30px;
+    max-width: 900px;
+    background-color: #f4f4f4;
+    box-shadow: 5px 5px 12px rgba(0, 0, 0, 2);
+    padding: 30px;
+    border-radius: 12px;
+}
+
+.containerCotacao {
+    background-color: #e9f9f0;
+    height: 300px;
+    width: 90%;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+}
+
+button#converter {
+    margin-top: 15px;
+}
+
+header.cotacaoTitulo {
+    background-color: #49A078;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+
+.containerInserir,
+.containerReceber {
+    width: 300px;
+    height: 200px;
+    background-color: #49A078;
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+}
+
+.containerInserir header,
+.containerReceber header {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+input#cotacao {
+    background-color: inherit;
+    border: none;
+    text-align: center;
+    font-size: 26px;
+    border-radius: 8px;
+    padding: 10px;
+    width: 20%;
+    margin-top: 10px;
+}
+
+input#inserir,
+input#receber{
+    background-color: white;
+    border: none;
+    text-align: center;
+    font-size: 26px;
+    border-radius: 8px;
+    padding: 10px;
+    width: 100%;
+}
+
+div.select  {
+    text-align: center;
+}
+
+p.chsMoney {
+    text-align: center;
+}
+
+select {
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+div.containerReceber p {
+    text-align: center;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money Conversor</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <H1>Money Conversor</H1>
+        <h3>Select the amount of your current money and select the money you want to convert to.</h3>
+    </header>
+    <main>
+        <div class="containerCotacao">
+            <header class="cotacaoTitulo">Here's the actual cotation of the money you choosed</header>
+            <p class="chsMoney">Choose the money</p>
+            <div class="select">
+                <select name="" id="options">
+                    <option value="option1">Dollar</option>
+                    <option value="option1">Euro</option>
+                    <option value="option1">Brazilian Reais</option>
+                    <option value="option1">Libra</option>
+                </select>
+                <p>to</p>
+                <div class="select2">
+                    <select name="" id="options2">
+                        <option value="option2a">Dollar</option>
+                        <option value="option2b">Euro</option>
+                        <option value="option2c">Brazilian Reais</option>
+                        <option value="option2d">Libra</option>
+                    </select>
+                <div class="cotacao">
+                    <input type="text" id="cotacao">
+                </div>
+                <button id="converter">Convert</button>
+            </div>
+        </div>
+        <div class="containerPai">
+            <div class="containerInserir">
+                <header>Select your current money in the field below</header>
+                <div class="inputInserir">
+                    <input type="text" id="inserir" placeholder="Ex: $50,00">
+                </div>
+            </div>
+            <div class="containerReceber">
+                <header class="receber">This will be the total of your amount</header>
+                <div class="inputReceber">
+                    <input type="text" id="receber" placeholder="Ex: $50,00">
+                </div>
+            </div>
+        </div>
+
+        </div>
+    </main>
+    <footer></footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
